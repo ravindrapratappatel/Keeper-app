@@ -3,7 +3,6 @@ import "./App.css";
 import Header from "./Header";
 import Note from "./Note";
 import Footer from "./Footer";
-import Todo from "./to-do";
 import CA from "./contentarea";
 
 function App() {
