@@ -1,0 +1,57 @@
+body{
+  font-family: 'EB Garamond', serif;
+  background-color: #8a005e;
+  background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
+}
+header{
+  background-color: #f5ba13;
+  margin: auto -16px;
+  margin: 1px;
+  padding: 16px 32px;
+}
+
+header p
+{
+  margin: 5px 20px;
+  padding: 5px;
+}
+
+.note
+{
+background-color: #fff;
+  width: 200px;
+  border-radius: 7px;
+  margin-top: 0;
+  box-shadow: 0 2px 5px #ccc;
+  float: left;
+  margin: 20px;
+}
+.note p{
+  padding-left: 8px;
+  margin-bottom: 10px;
+  white-space: pre;
+  word-wrap: break-word;
+}
+.note h4{
+  padding-left: 8px;
+}
+
+footer{
+  background-color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50%;
+  position: relative;
+}
+
+input, textarea{
+  margin: 10px 5px auto 10px;
+}
+button{
+  margin-left: 75%;
+  margin-bottom: 3px;
+  color: #f5ba13;
+  border: none;
+  background: none;
+}
