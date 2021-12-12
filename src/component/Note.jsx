@@ -10,7 +10,7 @@ function Note(props) {
   return (
     <div className="note">
       <h4>{props.title}</h4>
-      <p style={{  whiteSpace: "pre", wordWrap: "break-word"}}>
+      <p style={{  flexwrap: "wrap"}}>
       {props.message}</p>
       <button onClick={dlt}> <DeleteIcon  /> </button>
     </div>
